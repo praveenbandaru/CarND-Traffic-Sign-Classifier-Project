@@ -31,7 +31,7 @@ The goals / steps of this project are the following:
 [image14]: ./test_images/Turn%20right%20ahead.jpg "Traffic Sign 8"
 [image15]: ./examples/prediction.png "Prediction"
 [image16]: ./examples/top51.png "Top 5 Probabilities for Image1"
-[image17]: ./examples/top52png "Top 5 Probabilities for Image2"
+[image17]: ./examples/top52.png "Top 5 Probabilities for Image2"
 [image18]: ./examples/top53.png "Top 5 Probabilities for Image3"
 [image19]: ./examples/top54.png "Top 5 Probabilities for Image4"
 [image20]: ./examples/top55.png "Top 5 Probabilities for Image5"
@@ -200,7 +200,7 @@ The model was able to correctly guess all the traffic signs, which gives an accu
 
 The code for making predictions on my final model is located in the 40th cell of the Ipython notebook.
 
-For the first image, the model is exactly sure that this is a *Children crossing* sign (probability of 100%), and the image does contain a *Children crossing*  sign. The top five soft max probabilities were
+For the first image, the model is relatively sure that this is a *Children crossing* sign (probability of 99.99%), and the image does contain a *Children crossing*  sign. The top five soft max probabilities were
 
 ![alt text][image16] 
 
@@ -208,19 +208,19 @@ For the second image, the model is exactly sure that this is a *No entry* sign (
 
 ![alt text][image17] 
 
-For the third image, the model is relatively sure that this is a *Right-of-way at the next intersection* sign (probability of 100%), and the image does contain a *Right-of-way at the next intersection*  sign. The top five soft max probabilities were
+For the third image, the model is exactly sure that this is a *Right-of-way at the next intersection* sign (probability of 100%), and the image does contain a *Right-of-way at the next intersection*  sign. The top five soft max probabilities were
 
 ![alt text][image18] 
 
-For the fourth image, the model is exactly sure that this is a *Road work* sign (probability of 100%), and the image does contain a *Road work*  sign. The top five soft max probabilities were
+For the fourth image, the model is relatively sure that this is a *Road work* sign (probability of 99.79%), and the image does contain a *Road work*  sign. The top five soft max probabilities were
 
 ![alt text][image19] 
 
-For the fifth image, the model is relatively sure that this is a *Roundabout mandatory* sign (probability of 52.13%), and the image does contain a *Roundabout mandatory*  sign. The top five soft max probabilities were
+For the fifth image, the model is exactly sure that this is a *Roundabout mandatory* sign (probability of 100%), and the image does contain a *Roundabout mandatory*  sign. The top five soft max probabilities were
 
 ![alt text][image20] 
 
-For the sixth image, the model is almost sure that this is a *Speed limit (50km/h)* sign (probability of 99.78%), and the image does contain a *Speed limit (50km/h)*  sign. The top five soft max probabilities were
+For the sixth image, the model is exactly sure that this is a *Speed limit (50km/h)* sign (probability of 100%), and the image does contain a *Speed limit (50km/h)*  sign. The top five soft max probabilities were
 
 ![alt text][image21] 
 
@@ -228,7 +228,7 @@ For the seventh image, the model is exactly sure that this is a *Stop* sign (pro
 
 ![alt text][image22] 
 
-For the eighth image, the model is exactly sure that this is a *Turn right ahead* sign (probability of 100%), and the image does contain a *Turn right ahead*  sign. The top five soft max probabilities were
+For the eighth image, the model is relatively sure that this is a *Turn right ahead* sign (probability of 99.99%), and the image does contain a *Turn right ahead*  sign. The top five soft max probabilities were
 
 ![alt text][image23] 
 
