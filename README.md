@@ -238,7 +238,7 @@ For the eighth image, the model is relatively sure that this is a *Turn right ah
 
 Considering the below image as input:
 
-![alt text][image17]
+![alt text][image8]
 
 The visulaization of the output of the activations of the first convolutional layer is as follows:
 
